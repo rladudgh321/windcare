@@ -3,6 +3,12 @@
 
 import { HeroSection } from "@/components/home/HeroSection";
 import { BenefitsSection } from "@/components/home/BenefitsSection";
+import ServicesSection from "./components/home/ServicesSection";
+import WhyUsSection from "./components/home/WhyUsSection";
+import ServiceShowcaseSection from "./components/home/ServiceShowcaseSection";
+import WorkProcessSection from "./components/home/WorkProcessSection";
+import PortfolioSection from "./components/home/PortfolioSection";
+import ContactSection from "./components/home/ContactSection";
 // import { ServicesSection } from "@/app/components/home/ServicesSection";
 // import { PricingSection } from "@/app/components/home/PricingSection";
 // import { WhyUsSection } from "@/components/home/WhyUsSection";
@@ -17,14 +23,17 @@ export default function HomePage() {
     <main>
       <HeroSection />
       <BenefitsSection />
-      {/* <ServicesSection /> */}
+      <ServicesSection />
+      
       {/* <PricingSection /> */}
-      {/* <WhyUsSection /> */}
-      {/* <WorkProcessSection /> */}
-      {/* <PortfolioSection /> */}
+      <WhyUsSection />
+      <ServicesSection />
+      <ServiceShowcaseSection />
+      <WorkProcessSection />
+      <PortfolioSection />
       {/* <ReviewsSection /> */}
       {/* <FAQSection /> */}
-      {/* <ContactSection /> */}
+      <ContactSection />
     </main>
   );
 }
