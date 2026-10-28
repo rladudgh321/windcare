@@ -10,23 +10,15 @@ import WorkProcessSection from "./components/home/WorkProcessSection";
 import PortfolioSection from "./components/home/PortfolioSection";
 import ContactSection from "./components/home/ContactSection";
 import ReviewsSection from "./components/home/ReviewsSection";
-// import { ServicesSection } from "@/app/components/home/ServicesSection";
-// import { PricingSection } from "@/app/components/home/PricingSection";
-// import { WhyUsSection } from "@/components/home/WhyUsSection";
-// import { WorkProcessSection } from "@/components/home/WorkProcessSection";
-// import { PortfolioSection } from "@/components/home/PortfolioSection";
-// import { ReviewsSection } from "@/components/home/ReviewsSection";
-// import { FAQSection } from "@/components/home/FAQSection";
-// import { ContactSection } from "@/components/home/ContactSection";
+import DiscountPromoSection from "./components/home/DiscountPromoSection";
 
 export default function HomePage() {
   return (
     <main>
       <HeroSection />
+      <DiscountPromoSection />
       <BenefitsSection />
       <ServicesSection />
-      
-      {/* <PricingSection /> */}
       <WhyUsSection />
       <ServicesSection />
       <ServiceShowcaseSection />

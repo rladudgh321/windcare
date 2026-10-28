@@ -83,7 +83,7 @@ export default function ContactSection() {
 
             {/* 전화 상담 */}
             <a
-              href="tel:15227384"
+              href="tel:01030358904"
               className="flex min-h-[74px] items-center gap-3 rounded-xl border border-slate-100 bg-slate-50 px-4 py-4 transition hover:border-sky-200 hover:bg-sky-50"
             >
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-sky-500 shadow-sm">
@@ -95,7 +95,7 @@ export default function ContactSection() {
                   친절 전화 상담
                 </span>
                 <span className="mt-0.5 block text-sm font-bold text-slate-900 sm:text-base">
-                  1522-7384
+                  010-3035-8904
                 </span>
               </span>
             </a>
