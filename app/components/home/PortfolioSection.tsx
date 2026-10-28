@@ -64,7 +64,7 @@ export default function PortfolioSection() {
             </p>
 
             <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              숨클린 <span className="text-sky-500">현장 스케치</span>
+              바람길케어 <span className="text-sky-500">현장 스케치</span>
             </h2>
           </div>
 

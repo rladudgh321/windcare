@@ -57,7 +57,7 @@ export default function WhyUsSection() {
           </span>
 
           <h2 className="mt-5 text-4xl font-extrabold leading-[1.2] tracking-tight sm:text-5xl lg:text-[56px]">
-            숨클린만의
+            바람길케어만의
             <br />
             <span className="text-sky-400">특별한 약속</span>
           </h2>

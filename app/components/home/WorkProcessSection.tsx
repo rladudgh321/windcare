@@ -51,7 +51,7 @@ export default function WorkProcessSection() {
           </p>
 
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-[42px]">
-            숨클린{" "}
+            바람길케어{" "}
             <span className="text-sky-500">표준 케어 프로세스</span>
           </h2>
 

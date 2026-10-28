@@ -106,7 +106,7 @@ export default function Footer() {
               </a>
 
               <p className="mt-2 text-xs font-semibold text-white">
-                ID · 숨클린
+                ID · 바람길케어
               </p>
             </div>
           </div>
