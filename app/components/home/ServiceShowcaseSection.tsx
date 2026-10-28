@@ -6,16 +6,17 @@ import Link from "next/link";
 import { useRef } from "react";
 import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
 
+
 const services = [
   {
-    id: "wall",
-    title: "벽걸이 에어컨",
-    category: "가정/원룸/오피스텔",
+    id: "system",
+    title: "시스템 에어컨",
+    category: "상업시설/사무실",
     description:
-      "가정이나 원룸에서 많이 사용하는 벽걸이 에어컨, 좁은 틈새의 오염까지 꼼꼼하게 관리합니다.",
-    image: "https://picsum.photos/seed/windcare-wall/800/520",
-    tags: ["분해세척", "곰팡이제거"],
-    href: "/services/wall-aircon",
+      "천장형 시스템 에어컨의 필터와 내부 주요 부위를 점검하고 설치 환경에 맞춰 세척합니다.",
+    image: "https://picsum.photos/seed/windcare-system/800/520",
+    tags: ["천장형", "분해세척"],
+    href: "/services/system-aircon",
   },
   {
     id: "standing",
@@ -28,26 +29,27 @@ const services = [
     href: "/services/standing-aircon",
   },
   {
+    id: "wall",
+    title: "벽걸이 에어컨",
+    category: "가정/원룸/오피스텔",
+    description:
+      "가정이나 원룸에서 많이 사용하는 벽걸이 에어컨, 좁은 틈새의 오염까지 꼼꼼하게 관리합니다.",
+    image: "https://picsum.photos/seed/windcare-wall/800/520",
+    tags: ["분해세척", "곰팡이제거"],
+    href: "/services/wall-aircon",
+  },
+  {
     id: "outdoor",
     title: "실외기 및 기타",
-    category: "화재예방",
+    category: "실외기 관리",
     description:
       "실외기 주변과 열교환기 오염을 점검하고, 냉방 효율을 위한 관리 서비스를 제공합니다.",
     image: "https://picsum.photos/seed/windcare-outdoor/800/520",
-    tags: ["전기세 절감"],
+    tags: ["실외기 점검", "주변 청소"],
     href: "/services/others",
   },
-  {
-    id: "system",
-    title: "시스템 에어컨",
-    category: "상업시설/사무실",
-    description:
-      "천장형 시스템 에어컨의 필터와 내부 주요 부위를 점검하고 설치 환경에 맞춰 세척합니다.",
-    image: "https://picsum.photos/seed/windcare-system/800/520",
-    tags: ["천장형", "분해세척"],
-    href: "/services/system-aircon",
-  },
 ];
+
 
 export default function ServicesSection() {
   const scrollRef = useRef<HTMLDivElement>(null);

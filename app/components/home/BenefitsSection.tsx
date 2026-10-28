@@ -70,7 +70,7 @@ export function BenefitsSection() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-sm leading-7 text-slate-500 sm:text-base sm:leading-8">
-            윈드케어는 단순한 물청소가 아닙니다. 에어컨의 구조와 오염
+            바람길케어는 단순한 물청소가 아닙니다. 에어컨의 구조와 오염
             상태를 고려한 체계적인 관리로 쾌적한 실내 환경을 만들어 갑니다.
           </p>
         </div>

@@ -15,11 +15,11 @@ const slides = [
   {
     eyebrow: "전문가의 손길",
     title: "냉난방기 전문가",
-    highlight: "윈드케어",
+    highlight: "바람길케어",
     description:
       "최고의 실력과 전문 장비로 에어컨을 꼼꼼하게 관리합니다.",
     image: "https://picsum.photos/seed/windcare-hero-1/1920/1080",
-    imageAlt: "윈드케어 첫 번째 배경 이미지",
+    imageAlt: "바람길케어 첫 번째 배경 이미지",
   },
   {
     eyebrow: "깨끗한 공간을 위한 선택",
@@ -28,16 +28,16 @@ const slides = [
     description:
       "체계적인 세척 과정으로 쾌적한 실내 환경을 만들어 갑니다.",
     image: "https://picsum.photos/seed/windcare-hero-2/1920/1080",
-    imageAlt: "윈드케어 두 번째 배경 이미지",
+    imageAlt: "바람길케어 두 번째 배경 이미지",
   },
   {
     eyebrow: "기업과 공간을 위한 전문 서비스",
     title: "냉난방기 관리의 기준",
-    highlight: "윈드케어",
+    highlight: "바람길케어",
     description:
       "가정부터 사무실과 상업 공간까지 맞춤형 관리 서비스를 제공합니다.",
     image: "https://picsum.photos/seed/windcare-hero-3/1920/1080",
-    imageAlt: "윈드케어 세 번째 배경 이미지",
+    imageAlt: "바람길케어 세 번째 배경 이미지",
   },
 ];
 

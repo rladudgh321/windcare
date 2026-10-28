@@ -1,6 +1,7 @@
 
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -20,13 +21,10 @@ export function Header() {
         {/* 로고 */}
         <Link
           href="/"
-          aria-label="윈드케어 홈"
+          aria-label="바람길케어 홈"
           className="shrink-0 text-2xl font-bold tracking-tight text-sky-400"
         >
-          <span className="mr-2 inline-flex h-9 w-9 items-center justify-center rounded-full border-2 border-sky-400 text-lg">
-            숨
-          </span>
-          윈드케어
+          <Image src="/logo_darkb.png" alt="바람길케어 로고" width={200} height={100} />
         </Link>
 
         {/* 데스크톱 메뉴 */}
